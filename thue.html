@@ -75,14 +75,14 @@ setInterval(() => {
 
     setInterval(() => {
         if (!isDetected) {
-     //    console.log(trap);
-   // console.clear();
+      console.log(trap);
+   console.clear();
         }
     }, 1000);
 
     setInterval(() => {
         const t1 = performance.now();
-//eval("debugger");
+eval("debugger");
         const t2 = performance.now();
         if (t2 - t1 > 150) {
             isDetected = true;
@@ -213,4 +213,5 @@ setInterval(() => {
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 </body>
 </html>
+
 
